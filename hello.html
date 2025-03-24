@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. NoBot</title>
+    <style>
+        /* Basic reset */
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Container for the popup */
+        .popup-container {
+            width: 300px;
+            /* Adjust width as needed */
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Header styling */
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 14px;
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Accent color for emphasis */
+        .accent {
+            color: #3498db;
+            font-weight: 500;
+        }
+
+        /* Link styling (as buttons) */
+        .link-button {
+            display: inline-block;
+            width: 200px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #ffffff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            /* Remove underline */
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin: 5px 0;
+            /* Spacing between buttons */
+        }
+
+
+        /* Hover effect */
+        .link-button:hover {
+            background-color: #2980b9;
+        }
+
+
+        /* Footer styling */
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="popup-container">
+        <h1>Mr. NoBot</h1>
+        <p>
+            Inspiracija - ako si gledao/la Mr. Robota, sećaš se kako kad god Eliot vidi ime E-Corp u svojoj glavi vidi
+            Evil-Corp? E pa, tako. <br />
+
+            Ova ekstenzija menja sve pomene imena Aleksandra Vučića u Nepomenik, kako i treba da bude.
+        </p>
+
+        <div>
+            <h2>Načini za dinstanje</h2>
+
+            <button class="link-button" id="ps">Podrži Studente</button>
+            <button class="link-button" id="bd">Blokadne Donacije</button>
+            <button class="link-button" id="ms">Mreža Solidarnosti</button>
+        </div>
+
+    </div>
+    <script src="scripts/popup.js" type="module"></script>
+</body>
+
+</html>
